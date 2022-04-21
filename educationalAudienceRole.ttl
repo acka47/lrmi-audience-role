@@ -17,43 +17,43 @@ audRole: a skos:ConceptScheme;
   skos:hasTopConcept audRole:administrator, audRole:generalPublic, audRole:mentor, audRole:parent, audRole:peerTutor, audRole:professional, audRole:student, audRole:teacher .
   
 audRole:administrator a skos:Concept;
-  skos:prefLabel "administrator"@en-US;
-  skos:definition "A trainer or educator with administrative authority and responsibility."@en-US;
+  skos:prefLabel "administrator"@en-US, "адміністратор"@uk;
+  skos:definition "A trainer or educator with administrative authority and responsibility."@en-US, "Тренер або викладач з адміністративними повноваженнями та відповідальністю."@uk;
   skos:inScheme audRole: .
 
 audRole:generalPublic a skos:Concept;
-  skos:prefLabel "general public"@en-US;  
-  skos:definition "The public at large."@en-US;
+  skos:prefLabel "general public"@en-US, "громадськість"@uk;  
+  skos:definition "The public at large."@en-US, "Громадськість в цілому"@uk;
   skos:inScheme audRole: .
   
 audRole:mentor a skos:Concept;
-  skos:prefLabel "mentor"@en-US;  
-  skos:definition "Someone who advises, trains, supports, and/or guides."@en-US;
+  skos:prefLabel "mentor"@en-US, "наставник"@uk;  
+  skos:definition "Someone who advises, trains, supports, and/or guides."@en-US, "Той, хто радить, навчає, підтримує та/або скеровує."@uk;
   skos:inScheme audRole: .  
 
 audRole:parent a skos:Concept;
-  skos:prefLabel "parent"@en-US;  
-  skos:definition "A father, mother, or legal guardian."@en-US;
+  skos:prefLabel "parent"@en-US, "батьки"@uk;  
+  skos:definition "A father, mother, or legal guardian."@en-US, "Батько, мати або законний опікун."@uk;
   skos:inScheme audRole: .
   
 audRole:peerTutor a skos:Concept;
-  skos:prefLabel "peer tutor"@en-US;   
-  skos:definition "The peer learner serving as tutor of another learner."@en-US;
+  skos:prefLabel "peer tutor"@en-US, "Учень у ролі наставника"@uk;   
+  skos:definition "The peer learner serving as tutor of another learner."@en-US, "Учень у ролі наставника іншого учня."@uk;
   skos:broader audRole:student;
   skos:inScheme audRole: .  
        
 audRole:professional a skos:Concept;
-  skos:prefLabel "professional"@en-US;  
-  skos:definition "Someone already practicing a profession; an industry partner, or professional development trainer."@en-US;
+  skos:prefLabel "professional"@en-US, "фахівець"@uk;  
+  skos:definition "Someone already practicing a profession; an industry partner, or professional development trainer."@en-US, "Той, хто вже займається професією; партнер у галузі або тренер з підвищення кваліфікації."@uk;
   skos:inScheme audRole: .
        
 audRole:student a skos:Concept;
-  skos:prefLabel "student"@en-US;   
-  skos:definition "The learner or trainee."@en-US;
+  skos:prefLabel "student"@en-US, "студент"@uk;   
+  skos:definition "The learner or trainee."@en-US, "Учень або стажер."@uk;
   skos:narrower audRole:peerTutor;
   skos:inScheme audRole: .
        
 audRole:teacher a skos:Concept;
-  skos:prefLabel "teacher"@en-US;  
-  skos:definition "A person who has been trained to implement educational methods and practices."@en-US ;
+  skos:prefLabel "teacher"@en-US, "вчитель"@uk;  
+  skos:definition "A person who has been trained to implement educational methods and practices."@en-US, "Особа, яка пройшла підготовку для впровадження освітніх методів і практик."@uk;
   skos:inScheme audRole: .            
